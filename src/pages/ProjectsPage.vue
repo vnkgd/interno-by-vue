@@ -5,7 +5,7 @@
                   <div class="hero-sub__container">
                       <div class="hero-sub__page current-page">
                           <h2 class="current-page__name">Our Projects</h2>
-                          <div class="current-page__path">Home / Projects ПОКА НЕ ГОТОВО</div>
+                          <div class="current-page__path">Home / Projects</div>
                       </div>
                   </div>
               </section>
