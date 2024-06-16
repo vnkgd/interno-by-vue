@@ -12,8 +12,8 @@ import BlogPage from '@/pages/BlogPage.vue'
 import ProjectsPage from '@/pages/ProjectsPage.vue'
 import ProjectPage from '@/pages/ProjectPage.vue'
 import NotFoundPage from '@/pages/NotFoundPage.vue'
-// поиск
-import PopupSearchPage from '@/pages/PopupSearchPage.vue'
+// иконки
+// import 'vue-material-design-icons'
 
 import './styles.css'
 
@@ -58,11 +58,6 @@ const router = new VueRouter({
       path: '/ProjectPage',
       name: 'ProjectPage',
       component: ProjectPage
-    },
-    {
-      path: '/search/:query',
-      name: 'PopupSearchPage',
-      component: PopupSearchPage
     },
     // если битая ссылка. не найдена в массиве routes. 404
     {

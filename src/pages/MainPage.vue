@@ -351,18 +351,30 @@
                 </div>
             </section>
 
+            <div>
+                <PopupMenuTest v-if="isPopupMenuVisible" />
+      <button
+      class="contact-action__button button button_secondary"
+      @click="openPopup"
+      >POPUP TEST</button>
+      <!-- <PopupMenuTest /> -->
+    </div>
+
         </main>
   </div>
 </div>
 </template>
 
 <script>
+// eslint-disable-next-line no-unused-vars
+import PopupMenuTest from '../components/PopupMenuTest.vue'
+
 export default {
   name: 'MainPage',
 
   data () {
     return {
-
+      isPopupMenuVisible: false
     }
   },
 
@@ -375,7 +387,9 @@ export default {
   },
 
   methods: {
-
+    openPopup () {
+      this.isPopupMenuVisible = true
+    }
   }
 }
 </script>

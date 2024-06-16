@@ -11,7 +11,6 @@
 <MainBlock/>
 <!-- ФУТЕР ВСЕГДА ВНИЗУ -->
 <FooterBlock/>
-    <!-- <button>КНОПКА</button> -->
     </div>
   </div>
 </template>
